@@ -34,7 +34,7 @@
 		// Pulls and parses data.
         // $userid = "1783863570";
         // $accessToken = "1783863570.ab103e5.b8263887cd73476cbea279b893d0d5e2";
-		$result = fetchData("https://api.instagram.com/v1/users/1783863570/media/recent/?access_token=1783863570.ab103e5.b8263887cd73476cbea279b893d0d5e2");
+		$result = fetchData("https://api.instagram.com/v1/users/"Your id goes in here"/media/recent/?access_token="Your access token goes in here");
 		$result = json_decode($result);
 	?>
 
